@@ -25,12 +25,20 @@ public:
         }
     }
 
-    void setMap(int row, int cul, char ch){
+    void setMap(int cul, int row, char ch){
         map[row][cul] = ch;
     }
 
     void setMap(int* arr, char ch){
-        map[arr[1]][arr[2]] = ch;
+        map[arr[1]][arr[0]] = ch;
+    }
+
+    bool isEmpty(int cul, int row) const{
+        return map[row][cul] == ' ';
+    }
+
+    bool isEmpty(int* arr) const{
+        return map[arr[1]][arr[0]] == ' ';
     }
 };
 
