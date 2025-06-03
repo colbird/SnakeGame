@@ -25,6 +25,10 @@ public:
         }
     }
 
+    char getMap(int cul, int row) const{
+        return map[row][cul];
+    }
+
     void setMap(int cul, int row, char ch){
         map[row][cul] = ch;
     }
