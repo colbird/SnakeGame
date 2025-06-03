@@ -1,3 +1,6 @@
+#ifndef QUEUE_H
+#define QUEUE_H
+
 class Node{
 public:
     int* data;
@@ -54,3 +57,5 @@ public:
         return intpArr;
     }
 };
+
+#endif
