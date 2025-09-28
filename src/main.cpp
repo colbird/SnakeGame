@@ -1,7 +1,7 @@
-#include "snake.h"
-#include "food.h"
-#include "map.h"
-#include "queue.h"
+#include <snake.h>
+#include <food.h>
+#include <map.h>
+#include <queue.h>
 #include <iomanip>
 #include <iostream>
 #include <cstdlib>

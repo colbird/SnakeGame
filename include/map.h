@@ -8,7 +8,7 @@ private:
     char map[30][50];
 public:
     Map(){
-        std::fstream fs("./map/map.map", std::ios::in);
+        std::fstream fs("../map/map.map", std::ios::in);
         for (int i = 0; i < 30; i++){
             for (int j = 0; j < 50; j++){
                 map[i][j]= static_cast<char>(fs.get());
